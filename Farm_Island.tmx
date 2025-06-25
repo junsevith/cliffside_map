@@ -4952,7 +4952,7 @@
   </object>
  </objectgroup>
  <objectgroup id="11" name="Back2" visible="0"/>
- <objectgroup id="12" name="Buildings" visible="0">
+ <objectgroup id="12" name="Buildings">
   <object id="122" name="TileData" x="128" y="112" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Farm.1&quot;"/>
