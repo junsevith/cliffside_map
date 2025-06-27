@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="110" height="110" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="159">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="110" height="110" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="159">
  <properties>
   <property name="AllowGrassSurviveInWinter" value="T"/>
+  <property name="BackwoodsEntry" value="40 4"/>
+  <property name="BrookSounds" value="26 8 4"/>
+  <property name="BusStopEntry" value="109 16"/>
+  <property name="FarmCaveEntry" value="34 7"/>
+  <property name="FarmHouseEntry" value="93 14"/>
+  <property name="ForestEntry" value="82 103"/>
+  <property name="GrandpaShrineLocation" value="8 7"/>
+  <property name="GreenhouseLocation" value="36 16"/>
+  <property name="MailboxLocation" value="97 15"/>
   <property name="Outdoors" value="T"/>
-  <property name="PetBowlLocation" value="78 21"/>
-  <property name="SpouseAreaLocation" value="79 2"/>
-  <property name="Warp" value="81 18 BusStop 11 23 81 17 BusStop 11 23 81 16 BusStop 11 23 81 105 Forest 68 0 82 105 Forest 68 0 83 105 Forest 68 0 40 -1 Backwoods 14 39 41 -1 Backwoods 14 39 34 15 FarmCave 8 11"/>
+  <property name="PetBowlLocation" value="83 7"/>
+  <property name="ShippingBinLocation" value="101 13"/>
+  <property name="SpawnBeachFarmForage" value="T"/>
+  <property name="SpawnForestFarmForage" value="T"/>
+  <property name="SpawnMountainFarmOreRect" value="7 39 14 7"/>
+  <property name="SpouseAreaLocation" value="99 6"/>
+  <property name="Warp" value="109 15 BusStop 11 23 109 16 BusStop 11 23 109 17 BusStop 11 23 109 18 BusStop 11 23 81 105 Forest 68 0 82 105 Forest 68 0 83 105 Forest 68 0 40 1 Backwoods 14 39 41 1 Backwoods 14 39 34 6 FarmCave 8 11"/>
+  <property name="WarpTotemEntry" value="78 7"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths" width="64" height="256"/>
@@ -648,6 +662,11 @@
     <property name="Buildable" value="T"/>
    </properties>
   </tile>
+  <tile id="556">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
   <tile id="558">
    <properties>
     <property name="AllSpawn" value="T"/>
@@ -708,6 +727,11 @@
    <properties>
     <property name="NoSpawn" value="T"/>
     <property name="Spawnable" value="F"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="583">
+   <properties>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -780,6 +804,21 @@
     <frame tileid="1288" duration="1000"/>
    </animation>
   </tile>
+  <tile id="606">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="607">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="608">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
   <tile id="610">
    <properties>
     <property name="Buildable" value="T"/>
@@ -834,6 +873,11 @@
    <properties>
     <property name="NoSpawn" value="T"/>
     <property name="Spawnable" value="F"/>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="685">
+   <properties>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -3966,7 +4010,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="10" name="Back">
+ <objectgroup id="10" name="Back" visible="0">
   <object id="1" name="TileData" x="640" y="48.6667" width="16" height="16">
    <properties>
     <property name="NoSpawn" value="All"/>
@@ -4373,18 +4417,18 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Back2"/>
- <objectgroup id="12" name="Buildings">
+ <objectgroup id="11" name="Back2" visible="0"/>
+ <objectgroup id="12" name="Buildings" visible="0">
   <object id="122" name="TileData" x="128" y="112" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Farm.1&quot;"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="13" name="Buildings2"/>
- <objectgroup id="14" name="Front"/>
- <objectgroup id="15" name="AlwaysFront"/>
- <objectgroup id="18" name="Paths">
+ <objectgroup id="13" name="Buildings2" visible="0"/>
+ <objectgroup id="14" name="Front" visible="0"/>
+ <objectgroup id="15" name="AlwaysFront" visible="0"/>
+ <objectgroup id="18" name="Paths" visible="0">
   <object id="123" name="TileData" x="1392" y="320" width="16" height="16">
    <properties>
     <property name="Order" type="int" value="1"/>
