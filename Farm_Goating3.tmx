@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="110" height="110" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="159">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="110" height="110" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="159">
  <properties>
   <property name="AllowGrassSurviveInWinter" value="T"/>
   <property name="BackwoodsEntry" value="40 4"/>
@@ -7,7 +7,7 @@
   <property name="BusStopEntry" value="109 16"/>
   <property name="FarmCaveEntry" value="34 7"/>
   <property name="FarmHouseEntry" value="93 14"/>
-  <property name="ForestEntry" value="82 103"/>
+  <property name="ForestEntry" value="81 103"/>
   <property name="GrandpaShrineLocation" value="8 7"/>
   <property name="GreenhouseLocation" value="36 16"/>
   <property name="MailboxLocation" value="97 15"/>
@@ -18,7 +18,7 @@
   <property name="SpawnForestFarmForage" value="T"/>
   <property name="SpawnMountainFarmOreRect" value="7 39 14 7"/>
   <property name="SpouseAreaLocation" value="99 6"/>
-  <property name="Warp" value="109 15 BusStop 11 23 109 16 BusStop 11 23 109 17 BusStop 11 23 109 18 BusStop 11 23 81 105 Forest 68 0 82 105 Forest 68 0 83 105 Forest 68 0 40 1 Backwoods 14 39 41 1 Backwoods 14 39 34 6 FarmCave 8 11"/>
+  <property name="Warp" value="109 15 BusStop 11 23 109 16 BusStop 11 23 109 17 BusStop 11 23 109 18 BusStop 11 23 81 105 Forest 68 0 82 105 Forest 68 0 40 1 Backwoods 14 39 41 1 Backwoods 14 39 34 6 FarmCave 8 11"/>
   <property name="WarpTotemEntry" value="78 7"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
