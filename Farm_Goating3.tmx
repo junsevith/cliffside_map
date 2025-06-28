@@ -18,7 +18,7 @@
   <property name="SpawnForestFarmForage" value="T"/>
   <property name="SpawnMountainFarmOreRect" value="7 39 14 7"/>
   <property name="SpouseAreaLocation" value="99 6"/>
-  <property name="Warp" value="109 15 BusStop 11 23 109 16 BusStop 11 23 109 17 BusStop 11 23 109 18 BusStop 11 23 81 105 Forest 68 0 82 105 Forest 68 0 40 1 Backwoods 14 39 41 1 Backwoods 14 39 34 6 FarmCave 8 11"/>
+  <property name="Warp" value="110 15 BusStop 11 23 110 16 BusStop 11 23 110 17 BusStop 11 23 109 18 BusStop 11 23 81 105 Forest 68 0 82 105 Forest 68 0 40 1 Backwoods 14 39 41 1 Backwoods 14 39 34 6 FarmCave 8 11"/>
   <property name="WarpTotemEntry" value="78 7"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
@@ -197,6 +197,12 @@
     <frame tileid="1209" duration="1000"/>
    </animation>
   </tile>
+  <tile id="211">
+   <animation>
+    <frame tileid="211" duration="1000"/>
+    <frame tileid="1210" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="225">
    <properties>
     <property name="Buildable" value="T"/>
@@ -243,6 +249,18 @@
     <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
+  </tile>
+  <tile id="233">
+   <animation>
+    <frame tileid="233" duration="1000"/>
+    <frame tileid="1232" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="235">
+   <animation>
+    <frame tileid="235" duration="1000"/>
+    <frame tileid="1290" duration="1000"/>
+   </animation>
   </tile>
   <tile id="250">
    <properties>
@@ -404,6 +422,18 @@
     <property name="NoSpawn" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
+  </tile>
+  <tile id="308">
+   <animation>
+    <frame tileid="308" duration="1000"/>
+    <frame tileid="1316" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="309">
+   <animation>
+    <frame tileid="309" duration="1000"/>
+    <frame tileid="1317" duration="1000"/>
+   </animation>
   </tile>
   <tile id="311">
    <properties>
