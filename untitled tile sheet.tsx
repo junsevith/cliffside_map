@@ -1246,6 +1246,7 @@
   <properties>
    <property name="NPCBarrier" value="T"/>
    <property name="NoSpawn" value="All"/>
+   <property name="Passable" value="T"/>
    <property name="Type" value="Wood"/>
   </properties>
  </tile>
