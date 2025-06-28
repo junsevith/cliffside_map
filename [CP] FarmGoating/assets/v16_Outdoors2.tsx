@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.0" name="v16_Outdoors2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
  <image source="spring_outdoorsTileSheet2" width="256" height="1120"/>
+ <tile id="545">
+  <animation>
+   <frame tileid="545" duration="1000"/>
+   <frame tileid="577" duration="1000"/>
+  </animation>
+ </tile>
+ <tile id="546">
+  <animation>
+   <frame tileid="546" duration="1000"/>
+   <frame tileid="578" duration="1000"/>
+  </animation>
+ </tile>
+ <tile id="547">
+  <animation>
+   <frame tileid="547" duration="1000"/>
+   <frame tileid="579" duration="1000"/>
+  </animation>
+ </tile>
+ <tile id="563">
+  <animation>
+   <frame tileid="563" duration="1000"/>
+   <frame tileid="595" duration="1000"/>
+  </animation>
+ </tile>
+ <tile id="564">
+  <animation>
+   <frame tileid="564" duration="1000"/>
+   <frame tileid="596" duration="1000"/>
+  </animation>
+ </tile>
  <tile id="740">
   <properties>
    <property name="Buildable" type="bool" value="true"/>
