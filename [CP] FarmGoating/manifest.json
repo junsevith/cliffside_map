@@ -1,0 +1,11 @@
+{
+    "Name": "Goating farm",
+    "Author": "KaeM, juno",
+    "Version": "1.0.0",
+    "Description": "Goat farm",
+    "UniqueID": "KaeM.GoatingFarm",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

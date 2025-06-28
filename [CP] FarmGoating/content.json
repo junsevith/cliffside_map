@@ -1,0 +1,56 @@
+{
+    "Format": "2.7.0",
+    "Changes": [
+	    {
+		    "LogName": "Load map",
+		    "Action": "Load",
+		    "Target": "Maps/Farm_Island",
+		    "FromFile": "assets/Farm_Goating3.tmx"
+	    },
+	    {
+	    	"LogName": "Setup Fishing Zones",
+		    "Action": "EditData",
+		    "Target": "Data/Locations",
+		    "Entries": {
+		        "Farm_Beach": {
+		            "FishAreas": {
+					  "CornerPond": {
+						"DisplayName": null,
+						"Position": {
+						  "X": 46,
+						  "Y": 0,
+						  "Width": 20,
+						  "Height": 15
+						},
+						"CrabPotFishTypes": [
+						  "freshwater"
+						],
+						"CrabPotJunkChance": 0.2
+					  },
+					  "Ocean": {
+						"DisplayName": null,
+						"Position": {
+						  "X": 0,
+						  "Y": 85,
+						  "Width": 110,
+						  "Height": 25
+						},
+						"CrabPotFishTypes": [
+						  "ocean"
+						],
+						"CrabPotJunkChance": 0.2
+					  },
+					  "River": {
+						"DisplayName": null,
+						"Position": null,
+						"CrabPotFishTypes": [
+							"freshwater"
+						],
+						"CrabPotJunkChance": 0.2
+					  }
+					}
+		        }
+		    }
+	    }
+    ]
+}
